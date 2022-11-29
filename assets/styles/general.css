@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  background: white;
+  overflow-x: hidden;
+}
+
+.orchid-container {
+  max-width: 1440px;
+  padding: 0 1.5rem;
+  margin: 0 auto;
+}
+
+a {
+  color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+
+.orchid-skip-link {
+  position: absolute;
+  left: -100%;
+  top: -100%;
+  background: white;
+  padding: 0.5rem;
+  transition: all 0.2s;
+  z-index: 11;
+}
+
+.orchid-skip-link:focus {
+  left: 0;
+  top: 0;
+}
+
+.orchid-main {
+  min-height: calc(100vh - 25vh);
+  margin-bottom: 2rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+/* Theme search bar */
+.orchid-search-field {
+  height: 1.5rem;
+}
+
+/* WordPress search bar & Buttons*/
+.widget_search button,
+.orchid-search-btn,
+.wp-block-button__link,
+.wp-element-button {
+  background: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.5rem;
+  font-size: 1rem;
+}
+
+.widget_search .wp-block-search__button-inside button {
+  border-radius: 0;
+}
+
+/* Buttons */
+.wp-element-button {
+  padding: 0.5rem 1rem;
+}
+
+/* WordPress Styles */
+.alignright {
+  text-align: right;
+}
+
+.alignleft {
+  text-align: left;
+}
+
+.aligncenter {
+  text-align: center;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+}

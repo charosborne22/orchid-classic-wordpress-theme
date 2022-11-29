@@ -1,0 +1,220 @@
+/* Orchid custom header */
+.orchid-custom-header {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.orchid-sidebar-header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+/* If sidebar is active */
+.orchid-sidebar-active {
+  display: flex;
+}
+
+.orchid-sidebar {
+  flex: 1;
+  margin-left: 1rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  height: max-content;
+}
+
+.orchid-widget ul {
+  padding-left: 1rem;
+}
+
+.orchid-widget {
+  margin: 1rem 0;
+}
+
+.orchid-footer-widgets .orchid-widget {
+  margin: 0.5rem 0;
+}
+
+.orchid-sidebar-active .orchid-main-content {
+  flex: 4;
+  margin-right: 1rem;
+}
+
+@media (max-width: 767px) {
+  .orchid-sidebar-active {
+    flex-direction: column;
+  }
+
+  .orchid-sidebar-active .orchid-main-content {
+    margin-right: 1rem;
+  }
+
+  .orchid-sidebar {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+}
+
+/* Pages and posts */
+.orchid-post-content p {
+  padding: 1rem 0;
+  line-height: 1.5;
+}
+
+.orchid-post-content ul,
+.orchid-post-content ol {
+  margin-left: 1rem;
+}
+
+/* Post grid */
+.orchid-card-link {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.orchid-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+
+.orchid-card {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.orchid-categories {
+  margin: 0.25rem 0;
+}
+
+.orchid-card-thumbnail img {
+  border-radius: 1rem 1rem 0 0;
+}
+
+.orchid-category-link {
+  display: inline-block;
+  background: black;
+  font-size: 0.8rem;
+  border-radius: 0.25rem;
+  color: white;
+  margin: 0.25rem 0;
+  padding: 0.125rem 0.25rem;
+  text-decoration: none;
+}
+
+.orchid-card-text {
+  padding: 1rem;
+}
+
+.orchid-card-title,
+.orchid-excerpt {
+  margin: 0.25rem 0;
+}
+.orchid-tag-list {
+  margin-bottom: 1rem;
+}
+
+.orchid-tag-link {
+  text-decoration: none;
+}
+
+/* Posts Nav */
+.orchid-posts-nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+/* Comments */
+.orchid-comment-list,
+.orchid-comment-list .children {
+  margin: 0.75rem 0;
+  list-style-type: none;
+}
+
+.orchid-comment-list .children {
+  margin: 0.75rem 0;
+  padding-left: 2.5rem;
+}
+
+.orchid-comment-list li {
+  margin: 1.5rem auto;
+}
+
+.orchid-comment-list img.avatar {
+  border-radius: 50%;
+}
+
+.orchid-pagination {
+  padding: 1rem 0;
+}
+
+.orchid-pagination span,
+.orchid-pagination a {
+  margin-right: 0.5rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.orchid-pagination .current {
+  border-bottom: 2px solid black;
+}
+
+.orchid-comment-form p {
+  padding: 0.5rem 0;
+}
+
+.orchid-comment-form input[type="text"],
+.orchid-comment-form textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 0.125rem;
+}
+
+.orchid-comment-form label {
+  display: block;
+}
+
+.orchid-comment-form input {
+  height: 1.5rem;
+}
+
+.orchid-comment-form .comment-form-cookies-consent {
+  display: flex;
+  align-items: center;
+}
+
+.orchid-comment-form .comment-form-cookies-consent input {
+  height: 1rem;
+  margin-right: 0.25rem;
+}
+
+.orchid-comment-form input.submit {
+  background: black;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+/* Search results page */
+.orchid-search-item {
+  margin: 1rem 0;
+}
+
+/* Archive */
+.orchid-archive-description {
+  margin: 1rem 0;
+}
+
+/* 404 Page */
+.orchid-404 p {
+  margin: 1rem 0;
+}

@@ -1,0 +1,15 @@
+.orchid-footer {
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 0;
+  background: black;
+  color: white;
+}
+
+.orchid-copyright {
+  padding: 0.5rem 0;
+}
